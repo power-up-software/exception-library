@@ -1,0 +1,5 @@
+//file:noinspection GrUnresolvedAccess
+//file:noinspection GroovyAssignabilityCheck
+rootProject.name = 'com.powerupsoftwareengineering.exception-library'
+
+include 'api'

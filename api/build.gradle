@@ -1,0 +1,11 @@
+//file:noinspection GroovyAssignabilityCheck
+//file:noinspection DependencyNotationArgument
+ext {
+    moduleName = 'exception-library-api'
+}
+
+apply from: "${rootDir}/${configurationPath}/shared-gradle-files/api.gradle"
+
+dependencies {
+    implementation group: 'org.springframework', name: 'spring-web', version: dependencyVersions.springframeworkSpringWebVersion
+}
