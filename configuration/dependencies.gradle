@@ -6,7 +6,7 @@ ext.buildDependencies = [
 
 ext.dependencyVersions = [
         slf4jSlf4jApiVersion           : '2.0.17', //group: 'org.slf4j', name: 'slf4j-api'
-        springframeworkSpringWebVersion: '6.2.7', //group: 'org.springframework', name: 'spring-web'
+        springframeworkSpringWebVersion: '7.0.0-M7', //group: 'org.springframework', name: 'spring-web'
 ]
 
 ext.testLibDependencies = [
