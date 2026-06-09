@@ -5,9 +5,9 @@ ext.buildDependencies = [
 ]
 
 ext.dependencyVersions = [
-        githubSpotbugsSpotbugsVersion  : '4.9.8', //group: 'com.github.spotbugs', name: 'spotbugs'
+        githubSpotbugsSpotbugsVersion  : '4.10.1', //group: 'com.github.spotbugs', name: 'spotbugs'
         slf4jSlf4jApiVersion           : '2.0.18', //group: 'org.slf4j', name: 'slf4j-api'
-        springframeworkSpringWebVersion: '7.0.7', //group: 'org.springframework', name: 'spring-web'
+        springframeworkSpringWebVersion: '7.0.8', //group: 'org.springframework', name: 'spring-web'
 ]
 
 ext.testLibDependencies = [
