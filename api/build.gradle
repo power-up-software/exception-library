@@ -4,8 +4,8 @@ ext {
     moduleName = 'exception-library-api'
 }
 
-apply from: "${rootDir}/${configurationPath}/shared-gradle-files/api.gradle"
+apply from: "${rootDir}/${rootProject.configurationPath}/shared-gradle-files/standard-module.gradle"
 
 dependencies {
-    implementation 'org.springframework:spring-web:' + dependencyVersions.springframeworkSpringWebVersion
+    implementation 'org.springframework:spring-web:' + rootProject.dependencyVersions.springframeworkSpringWebVersion
 }
