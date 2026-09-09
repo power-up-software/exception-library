@@ -24,7 +24,6 @@ import java.io.Serial;
  *
  * @author Chris Picard
  */
-@SuppressWarnings("unused")
 public class RequestException extends RuntimeException {
     /**
      * Serial Version ID implements the {@link java.io.Serializable} contract.

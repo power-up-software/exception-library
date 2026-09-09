@@ -27,7 +27,6 @@ import org.springframework.web.bind.annotation.ResponseStatus;
  *
  * @author Chris Picard
  */
-@SuppressWarnings("unused")
 @ResponseStatus(HttpStatus.METHOD_NOT_ALLOWED)
 public class MethodNotAllowedException extends RequestException {
     /**

@@ -27,7 +27,6 @@ import org.springframework.web.bind.annotation.ResponseStatus;
  *
  * @author Chris Picard
  */
-@SuppressWarnings("unused")
 @ResponseStatus(HttpStatus.INTERNAL_SERVER_ERROR)
 public class InternalServerErrorException extends RequestException {
     /**

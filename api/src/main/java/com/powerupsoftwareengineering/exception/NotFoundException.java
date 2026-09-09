@@ -27,7 +27,6 @@ import org.springframework.web.bind.annotation.ResponseStatus;
  *
  * @author Chris Picard
  */
-@SuppressWarnings("unused")
 @ResponseStatus(HttpStatus.NOT_FOUND)
 public class NotFoundException extends RequestException {
     /**
